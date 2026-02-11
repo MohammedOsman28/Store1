@@ -6,3 +6,6 @@
 .adds{
     border-radius: 50px;
 }
+.price{
+    text-decoration: line-through;
+}

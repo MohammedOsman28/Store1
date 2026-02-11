@@ -6,6 +6,17 @@
     <title>Cart</title>
 </head>
 <body>
+    <!-- navbar -->
+     <div id="navbar"></div>
     <h1>Welcom To Cart</h1>
+
+      <!-- my first javascript -->
+   <script>
+    fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar").innerHTML=data;
+    });
+   </script>
 </body>
 </html>
