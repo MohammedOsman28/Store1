@@ -8,7 +8,25 @@
 }
 .price{
     text-decoration: line-through;
-}
+} 
 .image-product{
     width: 100%;
+}
+.product {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.product-info {
+  margin-bottom: 30px; /* separates text from bottom section */
+}
+
+.product-bottom {
+  display: flex;
+  justify-content: space-between; /* pushes sizes left, button right */
+  align-items: center;
+}
+
+.sizes label {
+  margin-right: 15px;
 }
